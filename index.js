@@ -1,7 +1,7 @@
 import express from "express";
 import bodyParser from "body-parser";
 import cors from "cors";
-import { connectDB } from "./database.js";
+import "./database.js";
 
 // Eski users route'ing
 import usersRoutes from "./routes/users.js";
